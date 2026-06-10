@@ -1,193 +1,193 @@
 # AI Fundamentals 🤖
 
-Yapay Zeka ve Makine Öğrenmesi temel ve ileri konularını kapsayan kapsamlı bir öğrenme platformu.
+A comprehensive learning platform covering fundamental and advanced topics in Artificial Intelligence and Machine Learning.
 
-## 📚 Kurs Yapısı
+## 📚 Course Structure
 
-Bu repositoryde AI hakkında öğrenmek için gereken her şey yer almaktadır. Konular gün gün organize edilmiş olup, her gün için ayrı Jupyter notebook'ları bulunmaktadır.
-
----
-
-## 📖 Bölümler
-
-### **Day 1** - Python Temelleri
-📔 [day1 Klasörü](./day1)
-
-Python programlamaya giriş ve temel kavramları öğreneceksiniz.
-- **Konular:** Değişkenler, veri tipleri, operatörler, temel sözdizimi
+This repository contains everything you need to learn about AI. Topics are organized by day, with separate Jupyter notebooks for each day.
 
 ---
 
-### **Day 2** - Veri Analizi ve Görselleştirme
-📔 [day2 Klasörü](./day2)
+## 📖 Sections
 
-Veri işleme, analiz ve görselleştirme tekniklerini öğreneceksiniz.
-- **Konular:** Pandas, NumPy, veri temizleme, istatistiksel analiz
+### **Day 1** - Python Fundamentals
+📔 [day1 Folder](./day1)
 
----
-
-### **Day 3+** - İleri Konular
-Modelleme, makine öğrenmesi ve uzmanlaşma alanlarını içerir.
-- Klasörleri keşfetmek için repository'yi gezin
+You will learn introduction to Python programming and fundamental concepts.
+- **Topics:** Variables, data types, operators, basic syntax
 
 ---
 
-## 🔧 Prework Projeleri
+### **Day 2** - Data Analysis and Visualization
+📔 [day2 Folder](./day2)
 
-**Not:** Prework projeleri yeni bir repository'ye taşınmıştır. Detaylı bilgi için [ai-works](https://github.com/zaidasim232/ai-works) repositoryini ziyaret edin.
+You will learn data manipulation, analysis, and visualization techniques.
+- **Topics:** Pandas, NumPy, data cleaning, statistical analysis
 
-Prework kısmında bulunan projeler:
+---
 
-### 1. **Python Temelleri** 🐍
+### **Day 3+** - Advanced Topics
+Includes modeling, machine learning, and specialization areas.
+- Explore the repository to discover more folders
+
+---
+
+## 🔧 Prework Projects
+
+**Note:** Prework projects have been moved to a separate repository. For detailed information, visit the [ai-works](https://github.com/zaidasim232/ai-works) repository.
+
+Projects included in the Prework section:
+
+### 1. **Python Fundamentals** 🐍
 📔 [Prework Python Files](./Prework/Prework%20Python%20files)
 
-**Açıklama:** Python programlamaya başlangıç seviyesi giriş. Değişkenler, kontrol akışı, veri yapıları ve fonksiyonlar gibi temel kavramları öğreneceksiniz.
+**Description:** Beginner-level introduction to Python programming. You will learn fundamental concepts such as variables, control flow, data structures, and functions.
 
-**Notebook'lar:**
+**Notebooks:**
 - PreWork Python 101 - Introduction to Python
 - PreWork Python 102 - Control Flow & Data Structures  
 - PreWork Python 103 - Functions
 
-**Hedefler:**
-- Python sözdizimini anlamak
-- Veri tiplerini ve işlemlerini öğrenmek
-- Fonksiyon yazabilmek
-- Temel problem çözmek
+**Objectives:**
+- Understand Python syntax
+- Learn data types and operations
+- Write functions
+- Solve basic problems
 
 ---
 
-### 2. **Pandas ile Veri Analizi** 📊
+### 2. **Data Analysis with Pandas** 📊
 📔 [Data Analysis with Pandas](./Prework/Data%20Analysis%20with%20Pandas)
 
-**Açıklama:** Pandas kütüphanesini kullanarak veri analizi yapmanın temellerini öğreneceksiniz. Gerçek dünya verisetleri ile çalışarak veri manipülasyonu, filtreleme ve temel istatistikleri hesaplayacaksınız.
+**Description:** Learn the basics of data analysis using the Pandas library. Working with real-world datasets, you will perform data manipulation, filtering, and calculate basic statistics.
 
 **Notebook:**
 - Data Analysis with Pandas.ipynb
 
-**Hedefler:**
-- DataFrame ve Series yapılarını anlamak
-- Veri yükleme ve temizleme
-- Eksik verileri işlemek
-- Temel istatistiksel analizler yapmak
-- Veri filtreleme ve seçme
+**Objectives:**
+- Understand DataFrame and Series structures
+- Load and clean data
+- Handle missing values
+- Perform basic statistical analysis
+- Filter and select data
 
 ---
 
-### 3. **Reklam Bütçesi - Regresyon Projesi** 💰
+### 3. **Advertisement Budget - Regression Project** 💰
 📔 [Advertisement Regression](./Prework/Advetisment_Regression)
 
-**Açıklama:** Lineer regresyon modelini kullanarak, farklı medya kanallarındaki reklam harcamalarının satışlara olan etkisini analiz etme projesi. Gerçek veri seti ile model eğitme, değerlendirme ve tahmin yapma uygulaması.
+**Description:** A project using linear regression to analyze the impact of advertising spending across different media channels on sales. Practical application of model training, evaluation, and prediction with real datasets.
 
 **Notebook:**
 - advertising.ipynb
 
-**Hedefler:**
-- Regresyon problemini anlamak
-- Model eğitme ve değerlendirme
-- Tahmin yapabilmek
-- Modelin performansını ölçmek (R², MSE vb.)
+**Objectives:**
+- Understand regression problems
+- Train and evaluate models
+- Make predictions
+- Measure model performance (R², MSE, etc.)
 
-**Başlıca Adımlar:**
-1. Veri yükleme ve keşfi
-2. Veri ön işleme
-3. Model oluşturma ve eğitme
-4. Model değerlendirmesi
-5. Tahmin yapma
+**Key Steps:**
+1. Load and explore data
+2. Data preprocessing
+3. Create and train model
+4. Evaluate model
+5. Make predictions
 
 ---
 
-### 4. **Titanic Kurtarma - Sınıflandırma Projesi** 🚢
+### 4. **Titanic Survival - Classification Project** 🚢
 📔 [Titanic](./Prework/Titanic)
 
-**Açıklama:** Titanic gemisinin batma olayında yolcuların hayatta kalıp kalmadığını tahmin etme projesi. Meşhur Kaggle projesi olarak kullanılan bu veri seti ile sınıflandırma modellerini uygulamayı öğreneceksiniz.
+**Description:** A famous Kaggle project that predicts whether passengers on the Titanic survived. Using this well-known dataset, you will learn how to apply classification models.
 
-**Dosyalar:**
+**Files:**
 - Titanic.ipynb (Jupyter Notebook)
-- Hack Day Titanic Project.pptx (Proje Sunumu)
+- Hack Day Titanic Project.pptx (Project Presentation)
 
-**Hedefler:**
-- Sınıflandırma problemlerini anlamak
-- Veri keşfi ve analizi
-- Eksik verilerle başa çıkma
-- Kategorik verileri dönüştürme
-- Farklı sınıflandırma modellerini denemek
-- Modeli değerlendirmek ve tahmin yapmak
+**Objectives:**
+- Understand classification problems
+- Data exploration and analysis
+- Handle missing values
+- Transform categorical data
+- Try different classification models
+- Evaluate model and make predictions
 
-**Başlıca Adımlar:**
-1. Veri seti analizi (kimler hayatta kaldı?)
-2. Özellikleri (features) belirleme
-3. Hedef değişkeni (target) tanımlama
-4. Veri ön işleme ve feature engineering
-5. Model seçimi ve eğitimi
-6. Sonuçların değerlendirilmesi
+**Key Steps:**
+1. Analyze dataset (who survived?)
+2. Identify features
+3. Define target variable
+4. Data preprocessing and feature engineering
+5. Model selection and training
+6. Evaluate results
 
 ---
 
-### 5. **Kümeleme Projeleri** 🎯
+### 5. **Clustering Projects** 🎯
 📔 [Clustering Projects](./Prework)
 
-**Açıklama:** Unsupervised learning tekniklerini kullanarak veri kümelerini otomatik olarak gruplama.
+**Description:** Using unsupervised learning techniques to automatically group data into clusters.
 
-**Projeler:**
-- **Clustering By Military Son** - Militer harcamalar temel alınarak ülkelerin kümelenmesi
-- **Clustering by Military Power of Countries** - Ülkelerin askeri gücüne göre sınıflandırılması
+**Projects:**
+- **Clustering By Military Son** - Clustering countries based on military spending
+- **Clustering by Military Power of Countries** - Classifying countries by military power
 
-**Hedefler:**
-- K-Means ve diğer kümeleme algoritmalarını öğrenmek
-- Optimal küme sayısını belirlemek (Elbow Method)
-- Küme analizi yapabilmek
-- Kümeleme sonuçlarını görselleştirmek
+**Objectives:**
+- Learn K-Means and other clustering algorithms
+- Determine optimal number of clusters (Elbow Method)
+- Perform cluster analysis
+- Visualize clustering results
 
 ---
 
-### 6. **Dizüstü Bilgisayar Fiyat Tahmini - Regresyon** 💻
+### 6. **Laptop Price Prediction - Regression** 💻
 📔 [Laptop Prediction Regression](./Prework/Laptop_Prediction_Regrssion_By_DLP)
 
-**Açıklama:** Deep Learning kullanarak dizüstü bilgisayarların fiyatlarını tahmin etme projesi. Lineer regresyondan daha ileri seviyelerdeki tahmin modellerini öğreneceksiniz.
+**Description:** A project using Deep Learning to predict laptop prices. You will learn more advanced prediction models beyond linear regression.
 
-**Hedefler:**
-- Deep Learning temellerini anlamak
-- Sinir ağlarını tasarlamak
-- Model optimizasyonu
-- Hiperparametre ayarı
-- Modeli değerlendirmek ve improve etmek
+**Objectives:**
+- Understand Deep Learning basics
+- Design neural networks
+- Model optimization
+- Hyperparameter tuning
+- Evaluate and improve models
 
 ---
 
-### 7. **Titanic - Deep Learning Versiyonu** 🚢🧠
+### 7. **Titanic - Deep Learning Version** 🚢🧠
 📔 [Titanic By Deep Learning](./Prework/Titanic_By_DL)
 
-**Açıklama:** Titanic sınıflandırma problemini Deep Learning teknikleriyle çözmek. Sinir ağlarını kullanarak sınıflandırma problemi.
+**Description:** Solving the Titanic classification problem using Deep Learning techniques. Classification using neural networks.
 
-**Hedefler:**
-- Sinir ağlarının mimarisini anlamak
-- Activation functions (Sigmoid, ReLU vb.)
-- Model eğitme ve validation
-- Overfitting ile başa çıkma
-- Deep Learning ile tahmin yapma
+**Objectives:**
+- Understand neural network architecture
+- Learn activation functions (Sigmoid, ReLU, etc.)
+- Train models and validation
+- Handle overfitting
+- Make predictions with Deep Learning
 
 ---
 
-## 🚀 Başlangıç
+## 🚀 Getting Started
 
-### Gereksinimler:
+### Requirements:
 ```bash
 pip install jupyter pandas numpy scikit-learn matplotlib seaborn tensorflow keras
 ```
 
-### Jupyter Notebook'u Başlat:
+### Start Jupyter Notebook:
 ```bash
 jupyter notebook
 ```
 
-### Sırasıyla Başlayın:
-1. **Day 1** - Python temelleri
-2. **Day 2** - Veri analizi
-3. **Prework Projeleri** - Sırasıyla tüm projeleri yapın
+### Start Sequentially:
+1. **Day 1** - Python fundamentals
+2. **Day 2** - Data analysis
+3. **Prework Projects** - Complete all projects in order
 
 ---
 
-## 📁 Dosya Yapısı
+## 📁 File Structure
 
 ```
 AI Fundamentals/
@@ -211,38 +211,38 @@ AI Fundamentals/
 
 ---
 
-## 🎯 Öğrenme Yolculuğu
+## 🎯 Learning Journey
 
 ```
-Python Temelleri
+Python Fundamentals
     ↓
-Pandas ile Veri Analizi
+Data Analysis with Pandas
     ↓
-İlk Model: Reklam Bütçesi (Regresyon)
+First Model: Advertisement Budget (Regression)
     ↓
-Sınıflandırma: Titanic (Klasik ML)
+Classification: Titanic (Classic ML)
     ↓
-Kümeleme: Military Power (Unsupervised)
+Clustering: Military Power (Unsupervised)
     ↓
-Deep Learning: Laptop Fiyatları (DL Regresyon)
+Deep Learning: Laptop Prices (DL Regression)
     ↓
-Deep Learning: Titanic (DL Sınıflandırma)
+Deep Learning: Titanic (DL Classification)
 ```
 
 ---
 
-## 💡 İpuçları
+## 💡 Tips
 
-- ✅ Her notebook'u **dikkatli bir şekilde okuyun**
-- ✅ **Kodları kendi ortamınızda çalıştırın** - passive okumak yeterli değil
-- ✅ **Denemeler yapın ve oynayın** - hiperparametreleri değiştirin
-- ✅ **Hata aldığınızda hata mesajını analiz edin**
-- ✅ **Online kaynakları kullanın** - Kaggle, Stack Overflow
-- ✅ **Takılırsanız projelerinizi paylaşın** - Başkaları yardım edebilir
+- ✅ Read each notebook **carefully**
+- ✅ **Run the code in your own environment** - passive reading is not enough
+- ✅ **Experiment and play** - change hyperparameters
+- ✅ **Analyze error messages when you get errors**
+- ✅ **Use online resources** - Kaggle, Stack Overflow
+- ✅ **Share your projects if you get stuck** - others can help
 
 ---
 
-## 🔗 Kaynaklar
+## 🔗 Resources
 
 - [Kaggle Datasets](https://www.kaggle.com/datasets)
 - [Scikit-Learn Documentation](https://scikit-learn.org/)
@@ -251,12 +251,12 @@ Deep Learning: Titanic (DL Sınıflandırma)
 
 ---
 
-## 📞 Destek
+## 📞 Support
 
-Sorularınız için lütfen bir Issue açın veya Discussions kısmını kullanın.
+Please open an Issue or use the Discussions section if you have questions.
 
 ---
 
-**Son Güncelleme:** 2026-06-10  
-**Kurs Sahibi:** @zaidasim232  
-**Repo Adı:** AI Fundamentals
+**Last Updated:** 2026-06-10  
+**Course Owner:** @zaidasim232  
+**Repository Name:** AI Fundamentals
